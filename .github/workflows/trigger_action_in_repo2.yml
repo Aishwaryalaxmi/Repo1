@@ -9,5 +9,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
             token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-            repository: Aishwaryalaxmi/Repo1
+            repository: Aishwaryalaxmi/Repo2
             event-type: sample_push
