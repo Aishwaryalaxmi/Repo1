@@ -5,6 +5,6 @@ public struct TestSwiftPackage {
     }
     
     public func testPackage() {
-        print("Intial Testing")
+        print("7.24 Testing")
     }
 }
