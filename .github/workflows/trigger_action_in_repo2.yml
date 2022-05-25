@@ -1,0 +1,13 @@
+name: Token after merge
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+            token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+            repository: Sreekanth-Reddy-GB/Repo2
+            event-type: sample_push
