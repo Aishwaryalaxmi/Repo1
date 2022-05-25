@@ -4,7 +4,7 @@ public struct TestSwiftPackage {
     public init() {
     }
     
-    func testPackage() {
+    public func testPackage() {
         print("Intial Testing")
     }
 }
