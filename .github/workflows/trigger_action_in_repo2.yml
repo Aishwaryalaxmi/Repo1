@@ -5,6 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Update the package
+        run: |
+          swift package update
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v2
         with:
